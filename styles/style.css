@@ -1,5 +1,4 @@
 .page {
-  
   background-color: var(--bg-color);
   background-position: center;
   background-size: cover;
@@ -7,7 +6,8 @@
   background-repeat: no-repeat;
   font-family: IBM Plex Mono, sans-serif;
   font-weight: 400;
-  margin: 20px;
+  padding: 0;
+  margin: 0;
 }
 
 header {
@@ -16,6 +16,7 @@ header {
   display: grid;
   position: relative;
   grid-template-rows: 1fr min-content 1fr;
+  margin: 20px;
 }
 
 .header__theme-menu-list {
@@ -119,6 +120,10 @@ header {
   line-height: 23.4px;
 }
 
+main {
+  margin: 20px;
+}
+
 h2 {
   max-inline-size: 315px;
   color: var(--btn-color);
@@ -217,7 +222,7 @@ h3 {
   margin: 20px 0 10px;
   font-weight: 400;
   color: var(--sb-text-color);
-  background-color: var(--accent-color);
+  background-color:var(--accent-color);
 }
 
 .how__section-article-text {
@@ -240,7 +245,7 @@ h3 {
   object-position: center;
 }
 
-.visual__section-images-item:why-of-type {
+.visual__section-images-item:first-of-type {
   grid-column: 1/3;
 }
 
