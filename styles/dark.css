@@ -1,0 +1,17 @@
+:root.theme-dark {
+  --accent-color: #ff0070;
+  --title-color: #DB00FF;
+  --text-color: #F1B2CE;
+  --sb-text-color: #000028;
+  --btn-color:#ff0070;
+  --bg-color: #000028;
+  --bg-image: url(../images/cover-image-dark.png);
+}
+
+.dark__theme-label {
+  display: flex;
+}
+
+.header__theme-menu-button:hover {
+  border: 1px solid rgba(255, 0, 112, 0.40);
+}
